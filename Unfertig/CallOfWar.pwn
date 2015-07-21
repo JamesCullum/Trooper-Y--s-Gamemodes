@@ -1231,7 +1231,25 @@ public StartMission1()
     
     for(new destr = 0;destr!=sizeof(missobjects);destr++) if(IsValidObject(missobjects[destr])) DestroyObject(missobjects[destr]); //init
     
-	//Map entfernt
+	missobjects[0] = CreateObject(3043, -2366.752930, 1552.566406, 2.575065, 0.0000, 0.0000, 0.0001);
+	missobjects[1] = CreateObject(2934, -2371.860596, 1547.664795, 2.569107, 0.0000, 0.0000, 90.0000);
+	missobjects[2] = CreateObject(2944, -2468.340576, 1547.937744, 24.258755, 0.0000, 0.0000, 0.0000);
+	missobjects[3] = CreateObject(2669, -2371.959473, 1552.692383, 2.407460, 0.0000, 0.0000, 270.0000);
+	missobjects[4] = CreateObject(964, -2370.162109, 1553.284302, 1.189813, 0.0000, 0.0000, 270.0000);
+	missobjects[5] = CreateObject(964, -2370.039307, 1553.276489, 2.089813, 0.0000, 0.0000, 270.0000);
+	missobjects[6] = CreateObject(1271, -2371.406738, 1553.702881, 1.489813, 0.0000, 0.0000, 0.0000);
+	missobjects[7] = CreateObject(1271, -2372.318359, 1553.675049, 1.521411, 0.0000, 0.0000, 0.0000);
+	missobjects[8] = CreateObject(3787, -2370.984131, 1552.057007, 1.681046, 0.0000, 0.0000, 0.0000);
+	missobjects[9] = CreateObject(1210, -2372.167236, 1553.666748, 1.829218, 269.7591, 0.0000, 135.0000);
+	missobjects[10] = CreateObject(2953, -2372.251709, 1553.420044, 1.859514, 0.0000, 0.0000, 348.7500);
+	missobjects[11] = CreateObject(2934, -2384.435791, 1539.113892, 8.348795, 0.0000, 0.8595, 90.0000);
+	missobjects[12] = CreateObject(2934, -2371.851563, 1541.414063, 8.364426, 0.0000, 0.8595, 90.0000);
+	missobjects[13] = CreateObject(2934, -2405.863770, 1547.750000, 8.373795, 0.0000, 0.8595, 90.0000);
+	missobjects[14] = CreateObject(2934, -2398.723389, 1542.176147, 8.373795, 0.0000, 0.8595, 90.0000);
+	missobjects[15] = CreateObject(2934, -2384.399658, 1551.563721, 8.373795, 0.0000, 0.8595, 90.0000);
+	missobjects[16] = CreateObject(2934, -2398.719727, 1550.869995, 8.373798, 0.0000, 0.8595, 90.0000); //cont1
+	missobjects[17] = CreateObject(2934, -2427.293457, 1554.655518, 5.425357, 0.0000, 0.8595, 90.0000);
+	missobjects[18] = CreateObject(2934, -2427.221191, 1554.665405, 8.332952, 0.0000, 0.8595, 90.0000); //cont3
 	
     SetWorldTime(12);
 	SetServerRule("Mission", "Besatzung entbehrlich - Prolog");
